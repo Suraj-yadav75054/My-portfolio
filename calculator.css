@@ -1,0 +1,35 @@
+body {
+    font-family: sans-serif;
+    height: 100vh;
+    background: linear-gradient(135deg, #1f1c2c, #928dab);
+  }
+  .calc {
+    background: #ffffff;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #ccc;
+  }
+  input {
+    width: 95%;
+    font-size: 1.5rem;
+    margin: 15px;
+    padding: 10px;
+    text-align: right;
+  }
+  .buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+  }
+  button {
+    font-size: 1.2rem;
+    padding: 15px;
+    border: none;
+    background: linear-gradient(135deg, #1f1c2c, #928dab);
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  button:hover {
+    background: #141414;
+  }

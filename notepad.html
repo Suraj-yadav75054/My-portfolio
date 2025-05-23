@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Notepad</title>
+  <link rel="stylesheet" href="notepad.css">
+</head>
+<body>
+  <h1>Simple Notepad</h1>
+  <textarea id="noteArea" placeholder="Write your notes here..."></textarea>
+  <br />
+  <button onclick="clearAll()">Clear All</button>
+
+  <script>
+    function clearAll() {
+      document.getElementById('noteArea').value = '';
+    }
+  </script>
+</body>
+</html>
